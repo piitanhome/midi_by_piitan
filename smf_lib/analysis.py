@@ -303,10 +303,12 @@ class UpdateTimes:
                     time_difference = data[i].cur_time - \
                         old_tempo[j].cur_time
                     data[i].cur_time = ceil(
-                        time_difference * self.tempo[j].data + self.tempo[j].cur_time)
+                        time_difference * self.tempo[j].data + self.tempo[j].cur_time * 100)/100
                     if type_ == 'note':
-                        data[i].time = ceil(data[i].time * self.tempo[j].data)
+                        data[i].time = ceil(
+                            data[i].time * self.tempo[j].data * 100)/100
                     break
+
 
 class Analysis():
     '''class analysis'''
