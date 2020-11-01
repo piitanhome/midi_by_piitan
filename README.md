@@ -1,6 +1,6 @@
 MIDI解析ツールについて
 * MIDI解析ツールとは、その名の通りMIDIファイルを解析できます
-* Scratch(https://scratch.mit.edu/)で使用できる様なファイル形式となっていますので、扱いにくい可能性があります
+* [Scratch](https://scratch.mit.edu/)で使用できる様なファイル形式となっていますので、扱いにくい可能性があります
 
 
 ファイルの実行について
@@ -40,11 +40,11 @@ Scratch以外で使用する場合
 
 バグの改善について
 * バグと思われるエラーが起きた場合はお知らせください
-  [Scratch](https://scratch.mit.edu/users/piitan_home/)
+  [Scratch/piitan_home](https://scratch.mit.edu/users/piitan_home/)
 
 
 作成者 
-* piitan_home [Scratch](https://scratch.mit.edu/users/piitan_home/)
+* piitan_home [Scratch/piitan_home](https://scratch.mit.edu/users/piitan_home/)
 
 
 "midi_by_piitan" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License)
