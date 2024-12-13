@@ -6,8 +6,6 @@ import json
 import pprint
 from smf_lib import Analysis
 
-os.chdir(os.path.abspath(__file__ + '/../'))  # 作業ディれとりをファイルのディレクトリへ
-
 
 class Main:
     '''class main'''
